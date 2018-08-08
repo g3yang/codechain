@@ -1,5 +1,6 @@
 language: rust
 rust:
+<<<<<<< HEAD
   - stable
 stages:
   - name: test
@@ -44,3 +45,8 @@ notifications:
 cache: cargo
 git:
   depth: 1
+=======
+    - nightly
+    - stable
+sudo: false
+>>>>>>> upstream/master
